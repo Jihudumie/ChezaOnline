@@ -22,9 +22,9 @@ from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "👋🏻 **Assalaam Aleykum Warahmatullaah Wabarakaatuh [{}](tg://user?id={})**,\n\nMimi ni **Radio Player Bot** \nI Can Play Radio/Stream Mawaidha In Channels & Groups 24x7 Nonstop. Nimetengenezwa na ❤️ @Twuwbaa!"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player Bot** \nI Can Play Radio/Stream Music In Channels & Groups 24x7 Nonstop. Made with ❤️ By @AsmSafone!"
 HELP = """🏷️ **Need Help?** 🤔
-__(Join @HudumaChat For Support)__
+__(Join @SafoTheBot For Support)__
 
 🏷️ **Common Commands**:
 \u2022 `/play` reply to an audio to play or queue it
@@ -57,8 +57,8 @@ __(Join @HudumaChat For Support)__
 async def start(client, message):
     buttons = [
         [
-        InlineKeyboardButton('CHANNEL', url='https://t.me/Mawaidha1'),
-        InlineKeyboardButton('SUPPORT', url='https://t.me/viongiziBot'),
+        InlineKeyboardButton('CHANNEL', url='https://t.me/AsmSafone'),
+        InlineKeyboardButton('SUPPORT', url='https://t.me/SafoTheBot'),
     ],
     [
         InlineKeyboardButton('MORE BOTS', url='https://t.me/AsmSafone/12'),
