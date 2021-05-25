@@ -22,7 +22,7 @@ from pyrogram import Client, filters
 
 
 
-HOME_TEXT = "👋🏻 **Bismillah [{}](tg://user?id={})**,\n\nI'm **Radio Player Bot** \nI Can Play Radio/Stream Mawaidha In Channels & Groups 24x7 Nonstop. Made with ❤️ By @Twuwbaa!"
+HOME_TEXT = "👋🏻 **Assalaam Aleykum Warahmatullaah Wabarakaatuh [{}](tg://user?id={})**,\n\nMimi ni **Radio Player Bot** \nI Can Play Radio/Stream Mawaidha In Channels & Groups 24x7 Nonstop. Nimetengenezwa na ❤️ @Twuwbaa!"
 HELP = """🏷️ **Need Help?** 🤔
 __(Join @HudumaChat For Support)__
 
